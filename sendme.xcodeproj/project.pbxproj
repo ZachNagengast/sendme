@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5DD2D73175DC61A000C574C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2D72175DC61A000C574C /* UIKit.framework */; };
+		A5DD2D75175DC61A000C574C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2D74175DC61A000C574C /* Foundation.framework */; };
+		A5DD2D77175DC61A000C574C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2D76175DC61A000C574C /* CoreGraphics.framework */; };
+		A5DD2D7D175DC61A000C574C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2D7B175DC61A000C574C /* InfoPlist.strings */; };
+		A5DD2D7F175DC61A000C574C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2D7E175DC61A000C574C /* main.m */; };
+		A5DD2D83175DC61A000C574C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2D82175DC61A000C574C /* AppDelegate.m */; };
+		A5DD2D85175DC61A000C574C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2D84175DC61A000C574C /* Default.png */; };
+		A5DD2D87175DC61A000C574C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2D86175DC61A000C574C /* Default@2x.png */; };
+		A5DD2D89175DC61A000C574C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2D88175DC61A000C574C /* Default-568h@2x.png */; };
+		A5DD2D8C175DC61A000C574C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2D8A175DC61A000C574C /* MainStoryboard.storyboard */; };
+		A5DD2D8F175DC61A000C574C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2D8E175DC61A000C574C /* ViewController.m */; };
+		A5DD2D97175DC61B000C574C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2D96175DC61B000C574C /* SenTestingKit.framework */; };
+		A5DD2D98175DC61B000C574C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2D72175DC61A000C574C /* UIKit.framework */; };
+		A5DD2D99175DC61B000C574C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2D74175DC61A000C574C /* Foundation.framework */; };
+		A5DD2DA1175DC61B000C574C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2D9F175DC61B000C574C /* InfoPlist.strings */; };
+		A5DD2DA4175DC61B000C574C /* sendmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2DA3175DC61B000C574C /* sendmeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5DD2D9A175DC61B000C574C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5DD2D67175DC61A000C574C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5DD2D6E175DC61A000C574C;
+			remoteInfo = sendme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5DD2D6F175DC61A000C574C /* sendme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sendme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DD2D72175DC61A000C574C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5DD2D74175DC61A000C574C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5DD2D76175DC61A000C574C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5DD2D7A175DC61A000C574C /* sendme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sendme-Info.plist"; sourceTree = "<group>"; };
+		A5DD2D7C175DC61A000C574C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5DD2D7E175DC61A000C574C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5DD2D80175DC61A000C574C /* sendme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sendme-Prefix.pch"; sourceTree = "<group>"; };
+		A5DD2D81175DC61A000C574C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5DD2D82175DC61A000C574C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5DD2D84175DC61A000C574C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A5DD2D86175DC61A000C574C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A5DD2D88175DC61A000C574C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5DD2D8B175DC61A000C574C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A5DD2D8D175DC61A000C574C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5DD2D8E175DC61A000C574C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5DD2D95175DC61B000C574C /* sendmeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sendmeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DD2D96175DC61B000C574C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5DD2D9E175DC61B000C574C /* sendmeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sendmeTests-Info.plist"; sourceTree = "<group>"; };
+		A5DD2DA0175DC61B000C574C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5DD2DA2175DC61B000C574C /* sendmeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sendmeTests.h; sourceTree = "<group>"; };
+		A5DD2DA3175DC61B000C574C /* sendmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sendmeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5DD2D6C175DC61A000C574C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2D73175DC61A000C574C /* UIKit.framework in Frameworks */,
+				A5DD2D75175DC61A000C574C /* Foundation.framework in Frameworks */,
+				A5DD2D77175DC61A000C574C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD2D91175DC61B000C574C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2D97175DC61B000C574C /* SenTestingKit.framework in Frameworks */,
+				A5DD2D98175DC61B000C574C /* UIKit.framework in Frameworks */,
+				A5DD2D99175DC61B000C574C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5DD2D66175DC61A000C574C = {
+			isa = PBXGroup;
+			children = (
+				A5DD2D78175DC61A000C574C /* sendme */,
+				A5DD2D9C175DC61B000C574C /* sendmeTests */,
+				A5DD2D71175DC61A000C574C /* Frameworks */,
+				A5DD2D70175DC61A000C574C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5DD2D70175DC61A000C574C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2D6F175DC61A000C574C /* sendme.app */,
+				A5DD2D95175DC61B000C574C /* sendmeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5DD2D71175DC61A000C574C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2D72175DC61A000C574C /* UIKit.framework */,
+				A5DD2D74175DC61A000C574C /* Foundation.framework */,
+				A5DD2D76175DC61A000C574C /* CoreGraphics.framework */,
+				A5DD2D96175DC61B000C574C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5DD2D78175DC61A000C574C /* sendme */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2D81175DC61A000C574C /* AppDelegate.h */,
+				A5DD2D82175DC61A000C574C /* AppDelegate.m */,
+				A5DD2D8A175DC61A000C574C /* MainStoryboard.storyboard */,
+				A5DD2D8D175DC61A000C574C /* ViewController.h */,
+				A5DD2D8E175DC61A000C574C /* ViewController.m */,
+				A5DD2D79175DC61A000C574C /* Supporting Files */,
+			);
+			path = sendme;
+			sourceTree = "<group>";
+		};
+		A5DD2D79175DC61A000C574C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2D7A175DC61A000C574C /* sendme-Info.plist */,
+				A5DD2D7B175DC61A000C574C /* InfoPlist.strings */,
+				A5DD2D7E175DC61A000C574C /* main.m */,
+				A5DD2D80175DC61A000C574C /* sendme-Prefix.pch */,
+				A5DD2D84175DC61A000C574C /* Default.png */,
+				A5DD2D86175DC61A000C574C /* Default@2x.png */,
+				A5DD2D88175DC61A000C574C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5DD2D9C175DC61B000C574C /* sendmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2DA2175DC61B000C574C /* sendmeTests.h */,
+				A5DD2DA3175DC61B000C574C /* sendmeTests.m */,
+				A5DD2D9D175DC61B000C574C /* Supporting Files */,
+			);
+			path = sendmeTests;
+			sourceTree = "<group>";
+		};
+		A5DD2D9D175DC61B000C574C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2D9E175DC61B000C574C /* sendmeTests-Info.plist */,
+				A5DD2D9F175DC61B000C574C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5DD2D6E175DC61A000C574C /* sendme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DD2DA7175DC61B000C574C /* Build configuration list for PBXNativeTarget "sendme" */;
+			buildPhases = (
+				A5DD2D6B175DC61A000C574C /* Sources */,
+				A5DD2D6C175DC61A000C574C /* Frameworks */,
+				A5DD2D6D175DC61A000C574C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sendme;
+			productName = sendme;
+			productReference = A5DD2D6F175DC61A000C574C /* sendme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5DD2D94175DC61B000C574C /* sendmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DD2DAA175DC61B000C574C /* Build configuration list for PBXNativeTarget "sendmeTests" */;
+			buildPhases = (
+				A5DD2D90175DC61B000C574C /* Sources */,
+				A5DD2D91175DC61B000C574C /* Frameworks */,
+				A5DD2D92175DC61B000C574C /* Resources */,
+				A5DD2D93175DC61B000C574C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5DD2D9B175DC61B000C574C /* PBXTargetDependency */,
+			);
+			name = sendmeTests;
+			productName = sendmeTests;
+			productReference = A5DD2D95175DC61B000C574C /* sendmeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5DD2D67175DC61A000C574C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Zauce Tech";
+			};
+			buildConfigurationList = A5DD2D6A175DC61A000C574C /* Build configuration list for PBXProject "sendme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5DD2D66175DC61A000C574C;
+			productRefGroup = A5DD2D70175DC61A000C574C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5DD2D6E175DC61A000C574C /* sendme */,
+				A5DD2D94175DC61B000C574C /* sendmeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5DD2D6D175DC61A000C574C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2D7D175DC61A000C574C /* InfoPlist.strings in Resources */,
+				A5DD2D85175DC61A000C574C /* Default.png in Resources */,
+				A5DD2D87175DC61A000C574C /* Default@2x.png in Resources */,
+				A5DD2D89175DC61A000C574C /* Default-568h@2x.png in Resources */,
+				A5DD2D8C175DC61A000C574C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD2D92175DC61B000C574C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2DA1175DC61B000C574C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5DD2D93175DC61B000C574C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5DD2D6B175DC61A000C574C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2D7F175DC61A000C574C /* main.m in Sources */,
+				A5DD2D83175DC61A000C574C /* AppDelegate.m in Sources */,
+				A5DD2D8F175DC61A000C574C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD2D90175DC61B000C574C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2DA4175DC61B000C574C /* sendmeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5DD2D9B175DC61B000C574C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5DD2D6E175DC61A000C574C /* sendme */;
+			targetProxy = A5DD2D9A175DC61B000C574C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5DD2D7B175DC61A000C574C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD2D7C175DC61A000C574C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5DD2D8A175DC61A000C574C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD2D8B175DC61A000C574C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A5DD2D9F175DC61B000C574C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD2DA0175DC61B000C574C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5DD2DA5175DC61B000C574C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5DD2DA6175DC61B000C574C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5DD2DA8175DC61B000C574C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sendme/sendme-Prefix.pch";
+				INFOPLIST_FILE = "sendme/sendme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5DD2DA9175DC61B000C574C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sendme/sendme-Prefix.pch";
+				INFOPLIST_FILE = "sendme/sendme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5DD2DAB175DC61B000C574C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sendme.app/sendme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sendme/sendme-Prefix.pch";
+				INFOPLIST_FILE = "sendmeTests/sendmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A5DD2DAC175DC61B000C574C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sendme.app/sendme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sendme/sendme-Prefix.pch";
+				INFOPLIST_FILE = "sendmeTests/sendmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5DD2D6A175DC61A000C574C /* Build configuration list for PBXProject "sendme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD2DA5175DC61B000C574C /* Debug */,
+				A5DD2DA6175DC61B000C574C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DD2DA7175DC61B000C574C /* Build configuration list for PBXNativeTarget "sendme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD2DA8175DC61B000C574C /* Debug */,
+				A5DD2DA9175DC61B000C574C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5DD2DAA175DC61B000C574C /* Build configuration list for PBXNativeTarget "sendmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD2DAB175DC61B000C574C /* Debug */,
+				A5DD2DAC175DC61B000C574C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5DD2D67175DC61A000C574C /* Project object */;
+}
